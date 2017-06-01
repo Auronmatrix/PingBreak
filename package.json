@@ -1,0 +1,11 @@
+{
+  "name": "ping-break",
+  "version": "1.0.0",
+  "description": "Simple node program to stop Pingdom notifications during scheduled times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
