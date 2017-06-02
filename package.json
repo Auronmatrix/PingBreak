@@ -4,8 +4,15 @@
   "description": "Simple node program to stop Pingdom notifications during scheduled times",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start index.js"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "Aubrey Oosthuizen",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  }
 }
