@@ -5,15 +5,28 @@ Simple node.js application to pause/unpause [pingdom](https://www.pingdom.com) m
 
 ## Installation
 
-```   $ [sudo] npm install forever -g ```
+Clone the repo
+
+`$ git clone https://github.com/Auronmatrix/PingBreak `
+
+`cd PingBreak `
+
+`$ npm install forever -g `
 
 Run the script using forever
 
-```   $ [sudo] forever start index.js ```
+`$ forever start index.js `
+
+Or if you would like to debug
+
+`$ forever index.js`
+
 
 See if the process is running
 
-```   $ [sudo] forever list ```
+`$ [sudo] forever list `
+
+See [forever](https://www.npmjs.com/package/forever) documentation about managing processes.
 
 
 ## Configuration
