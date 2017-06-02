@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "forever start index.js"
   },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Auronmatrix/PingBreak"
+  },
   "author": "Aubrey Oosthuizen",
   "license": "MIT",
   "dependencies": {
