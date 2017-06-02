@@ -12,6 +12,7 @@ Clone the repo
 `cd PingBreak `
 
 `$ npm install forever -g `
+`$ npm install`
 
 Run the script using forever
 
